@@ -67,16 +67,16 @@ body{
 }
 
 .cartaoApresentacao{
-    overflow-x:hidden;
+    overflow-y:hidden;
     display: flex;
     justify-content: start;
     align-items: center;
     min-height: 80vh;
-    margin-left: 20px;
+    margin-left: 0px;
     
 
     /*ADD AGORA*/
-    gap: 100px;
+    gap: 80px;
    
 }
 
@@ -237,6 +237,7 @@ body{
     position: relative;
     border-radius: 1.5em;
     transform-style: preserve-3d;
+    margin-left: 40px;
 }
 
 .box0 .card0{
@@ -881,6 +882,7 @@ body{
     position: relative;
     border-radius: 1.5em;
     transform-style: preserve-3d;
+    margin-right: 20px;
 }
 
 .box2 .card{
@@ -969,7 +971,7 @@ body{
     width: 100%;
     padding: 10px;
     text-align: right;
-    transform: translateZ(180px);
+    transform: translateZ(50px);
     background: transparent;
     backdrop-filter: blur(0px);
     border: none;   
@@ -991,11 +993,11 @@ body{
     top: initial;
     left: initial;
     bottom:0;
-    right: -20px;
+    right: 20px;
     width:85%;
     min-height: 200px;
     padding: 10px;
-    transform: translateZ(180px);
+    transform: translateZ(80px);
     align-items: center;
 }
 
