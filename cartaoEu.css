@@ -1,0 +1,505 @@
+/*Cartão Zero ------------------------------------------------------------------------------------------------------------------*/
+
+.box0{
+    position: relative;
+    border-radius: 1.5em;
+    transform-style: preserve-3d;
+    margin-left: 40px;
+}
+
+.box0 .card0{
+    position: relative;
+    
+    background: rgba(255,255,255,0.1) ;
+    width:18em;
+    min-height: 24em;
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+
+    border-radius: 1.5em;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+    transform-style: preserve-3d;
+}
+
+
+
+.elements0{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(80px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0.bg0::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/aspas.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0.bg0::before{
+    opacity: 1;
+    
+}
+
+/*-----------cartoes de HTML CSS e JS----------------------*/
+
+
+.elements0.imgBx0{
+    top: 0;
+    left: initial;
+    right: 85px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    transform: translateZ(120px);
+}
+
+.elements0.imgBx0 img{
+    position: absolute;
+    width: calc(100% - 20px);
+    
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 8px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box0:hover .elements0.imgBx0 img{
+    opacity: 1;
+}
+
+/*----- css-------------------------------------------------------------------------*/
+
+.skills{
+    display: flex;
+     transform-style: preserve-3d;
+     transform: translateZ(1px);
+     
+}
+
+.elements0a{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 70px;
+    height: 80px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(80px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+
+
+.elements0a.bg0a::before{
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    
+    background: url(./img/css.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0a.bg0a::before{
+    opacity: 1;
+    
+}
+
+
+
+
+/*-----html-----------------*/
+
+.elements0b{
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(100px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0b.bg0b::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/html.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0b.bg0b::before{
+    opacity: 1;
+    
+}
+
+
+
+
+/*---------js---------------*/
+.elements0c{
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    width: 60px;
+    height: 80px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(150px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0c.bg0c::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/javascript.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0c.bg0c::before{
+    opacity: 1;
+    
+}
+
+/*----------------------sass------------------------------*/
+.elements0d{
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(60px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0d.bg0d::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/sass.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0d.bg0d::before{
+    opacity: 1;
+    
+}
+
+/*--------------------------Tailwind----------------*/
+.elements0g{
+    position: absolute;
+    top: 80px;
+    left: 2px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(70px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0g.bg0g::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/tailwind.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0g.bg0g::before{
+    opacity: 1;
+    
+}
+
+/*--------------------------REACT---------------------------------*/
+.elements0e{
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(180px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0e.bg0e::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/react.png);
+    background-size: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.box0:hover .elements0e.bg0e::before{
+    opacity: 1;
+    
+}
+
+/*---------------NodeJs------------------*/
+
+
+.elements0f{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(130px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elements0f.bg0f::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/node.png);
+    background-size: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+
+.box0:hover .elements0f.bg0f::before{
+    opacity: 1;
+    
+}
+/*----------------------Efeito de HOVER dos icones----------------------------*/
+
+.elements0a.bg0a{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0a.bg0a{
+    top:60px;
+    opacity: 1
+}
+
+.elements0b.bg0b{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0b.bg0b{
+    top:-50px;
+    opacity: 1
+}
+
+.elements0c.bg0c{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 10px;
+}
+.box0:hover .elements0c.bg0c{
+    top:60px;
+    opacity: 1
+}
+.elements0d.bg0d{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0d.bg0d{
+    top:30px;
+    opacity: 1
+}
+
+.elements0e.bg0e{
+    transition: 3s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0e.bg0e{
+    top:30px;
+    opacity: 1
+}
+.elements0f.bg0f{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0f.bg0f{
+    top:90px;
+    opacity: 1
+}
+
+.elements0g.bg0g{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0g.bg0g{
+    top:100px;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+.elements0.name0{
+    top: 235px;
+    left: initial;
+    right: 48px;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    transform: translateZ(80px);
+    background: transparent;
+    backdrop-filter: blur(0px);
+    border: none;   
+    box-shadow: none;
+    color: #644651;
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.25px;
+
+}
+
+.box0:hover .elements0.name0{
+    top:135px;
+    opacity: 1
+
+}
+
+.elements0.content0{
+    top: 180px;
+    right: initial;
+    bottom:0;
+    left: 10;
+    width:79%;
+    min-height: 200px;
+    padding: 10px;
+    transform: translateZ(60px);
+    align-items: center;
+}
+
+.elements0.content0 p {
+    position: relative;
+    color: #644651;
+    font-size: 0.85em;
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.5s;
+}
+
+.box0:hover .elements0.content0 p{
+    opacity:1;
+
+} 
+
+
