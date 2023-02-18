@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(11, 173, 227);
+    color: #644651;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -349,7 +349,10 @@ body{
     box-shadow: 0 25px 45px rgba(0,0,0,0.05);
 }
 
+
+
 .elements0a.bg0a::before{
+    display: block;
     content: '';
     position: absolute;
     inset: 0;
@@ -562,6 +565,7 @@ body{
 
 /*---------------NodeJs------------------*/
 
+
 .elements0f{
     position: absolute;
     top: 60px;
@@ -593,9 +597,80 @@ body{
 
 }
 
+
+
 .box0:hover .elements0f.bg0f::before{
     opacity: 1;
     
+}
+/*----------------------Efeito de HOVER dos icones----------------------------*/
+
+.elements0a.bg0a{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0a.bg0a{
+    top:60px;
+    opacity: 1
+}
+
+.elements0b.bg0b{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0b.bg0b{
+    top:-50px;
+    opacity: 1
+}
+
+.elements0c.bg0c{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 10px;
+}
+.box0:hover .elements0c.bg0c{
+    top:60px;
+    opacity: 1
+}
+.elements0d.bg0d{
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0d.bg0d{
+    top:30px;
+    opacity: 1
+}
+
+.elements0e.bg0e{
+    transition: 3s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0e.bg0e{
+    top:30px;
+    opacity: 1
+}
+.elements0f.bg0f{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0f.bg0f{
+    top:90px;
+    opacity: 1
+}
+
+.elements0g.bg0g{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0g.bg0g{
+    top:100px;
+    opacity: 1
 }
 
 
@@ -609,11 +684,11 @@ body{
 .elements0.name0{
     top: 235px;
     left: initial;
-    right: 60px;
+    right: 48px;
     width: 100%;
     padding: 10px;
     text-align: right;
-    transform: translateZ(180px);
+    transform: translateZ(80px);
     background: transparent;
     backdrop-filter: blur(0px);
     border: none;   
@@ -632,14 +707,14 @@ body{
 }
 
 .elements0.content0{
-    top: initial;
+    top: 180px;
     right: initial;
     bottom:0;
     left: 10;
     width:79%;
     min-height: 200px;
     padding: 10px;
-    transform: translateZ(180px);
+    transform: translateZ(60px);
     align-items: center;
 }
 
