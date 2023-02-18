@@ -10,21 +10,75 @@
     <title></title>
 </head>
 <body>
-    <section class="cartaoApresentacao">
-    <div class="box">
-        <div class="elements bg"></div>
-        <div class="elements imgBx">
-            <img src="./tucano1.png" alt="">
-        </div>
-        <div class="elements name">
-            <h2>Lu Trindade</h2>
-        </div>
-        <div class="elements content">
-           <p>Algum Slogan foda que o seu marido burro não consegue inventar porque não tem criatividade nenhuma, então só esta escrevendo aleatóriamente para que tenha bastante letras na tela e fique legal</p> 
-        </div>
-        <div class="card"></div>
-    </div>
+    <header class="cabecalho">
+        <h1 class="cabecalho__nome">JavaScript</h1>
+        <h1 class="cabecalho__nome">Dyegho Moraes Costa Gama Cunha</h1>
+    </header>
 
+    <section class="cartaoApresentacao">
+        <!-- <div class="status"></div> -->
+
+        <div class="box0">
+            <div class="elements0 bg0A"></div>
+            <div class="elements0 bg0B"></div>
+            <div class="elements0 bg0C"></div>
+            
+            <div class="elements0 imgBx0">
+                <img src="./tucano1.png" alt="">
+            </div>
+            <div class="elements0 name0">
+                <h2>Lu Trindade</h2>
+            </div>
+            <div class="elements0 content0">
+            <p>Algum Slogan foda que o seu marido burro não consegue inventar porque não tem criatividade nenhuma, então só esta escrevendo aleatóriamente para que tenha bastante letras na tela e fique legal</p> 
+            </div>
+            <div class="card0"></div>
+        </div>
+
+            <div class="box">
+                <div class="elements bg"></div>
+                <div class="elements imgBx">
+                    <img src="./tucano1.png" alt="">
+                </div>
+                <div class="elements name">
+                    <h2>Lu Trindade</h2>
+                </div>
+                <div class="elements content">
+                <p>Algum Slogan foda que o seu marido burro não consegue inventar porque não tem criatividade nenhuma, então só esta escrevendo aleatóriamente para que tenha bastante letras na tela e fique legal</p> 
+                </div>
+                <div class="card"></div>
+            </div>
+
+            <div class="box1">
+                <div class="elements1 bg1"></div>
+                <div class="elements1 imgBx1">
+                    <img src="./tucano1.png" alt="">
+                </div>
+                <div class="elements1 name1">
+                    <h2>Lu Trindade</h2>
+                </div>
+                <div class="elements1 content1">
+                <p>Algum Slogan foda que o seu marido burro não consegue inventar porque não tem criatividade nenhuma, então só esta escrevendo aleatóriamente para que tenha bastante letras na tela e fique legal</p> 
+                </div>
+                <div class="card1"></div>
+            </div>
+
+            <div class="box2">
+                <div class="elements bg"></div>
+                <div class="elements imgBx">
+                    <img src="./tucano1.png" alt="">
+                </div>
+                <div class="elements name">
+                    <h2>Lu Trindade</h2>
+                </div>
+                <div class="elements content">
+                <p>Algum Slogan foda que o seu marido burro não consegue inventar porque não tem criatividade nenhuma, então só esta escrevendo aleatóriamente para que tenha bastante letras na tela e fique legal</p> 
+                </div>
+                <div class="card"></div>
+            </div>
+
+
+       
 <!-- Colocar isto para que o card se movimente -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script>
@@ -34,9 +88,28 @@
         glare:true,
 	});
 
+    VanillaTilt.init(document.querySelector(".box1"), {
+		max: 15,
+		speed: 400,
+        glare:true,
+	});
+
+    VanillaTilt.init(document.querySelector(".box2"), {
+		max: 15,
+		speed: 400,
+        glare:true,
+	});
+    VanillaTilt.init(document.querySelector(".box0"), {
+		max: 15,
+		speed: 400,
+        glare:true,
+	});
+
      </script>
      </section>
 
+     
+     
     <section class="containerGlass">
        
        
