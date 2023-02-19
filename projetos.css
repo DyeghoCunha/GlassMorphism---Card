@@ -73,7 +73,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: url(./img/aspas.png);
+    background: url(./img/link.png);
     background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,6 +87,115 @@
     
 }
 
+
+
+
+
+
+
+/*simples nacional-----------------------------------------------*/
+
+.elementsz{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(130px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elementsz.bgz::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/card1/simplesnacional.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+
+.box:hover .elementsz.bgz::before{
+    opacity: 1;
+    
+}
+.elementsz.bgz{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box:hover .elementsz.bgz{
+    top:160px;
+    opacity: 1
+}
+
+
+/*FIm simples nacional----------------------------------*/
+
+
+/*-------Dinheirooo-------------------------------*/
+.elementsx{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+
+    transform: translateZ(200px);
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+}
+
+.elementsx.bgx::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/card1/dinheiro.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+
+.box:hover .elementsx.bgx::before{
+    opacity: 1;
+    
+}
+.elementsx.bgx{
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.25px;
+}
+.box:hover .elementsx.bgx{
+    top:230px;
+    opacity: 1
+}
+
+
+/*------------Fim Dinheiro-----------------------*/
 .elements.imgBx{
     top: 0;
     left: initial;
@@ -134,7 +243,7 @@
 }
 
 .box:hover .elements.name{
-    top:135px;
+    top:90px;
     opacity: 1
 
 }
@@ -164,6 +273,52 @@
     opacity:1;
 
 } 
+/*-------------efeito*/
+.elements.imgBx{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.box:hover .elements.imgBx{
+    top:-30px;
+    opacity: 1
+}
+
+.elements.bg{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box:hover .elements.bg{
+    top:30px;
+    opacity: 1
+}
+
+.elements.content p{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.elements.content {
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box:hover .elements.content p{
+    top:0px;
+    opacity: 1
+}
+
+.box:hover .elements.content {
+    top:140px;
+    opacity: 1
+}
+
+/*----------Fim efeito--------------------*/
+
+
 
 
 /*Cartão 1--------------------------------------------------------------------------------------*/
@@ -192,10 +347,10 @@
 
 .elements1{
     position: absolute;
-    top: 50px;
-    left: -30px;
-    width: 100px;
-    height: 100px;
+    top: 10px;
+    left: -10px;
+    width: 80px;
+    height: 80px;
     background: rgba(255,255,255,0.1);
 
     transform: translateZ(80px);
@@ -208,11 +363,13 @@
     box-shadow: 0 25px 45px rgba(0,0,0,0.05);
 }
 
+
+
 .elements1.bg1::before{
     content: '';
     position: absolute;
     inset: 0;
-    background: url(./img/aspas.png);
+    background: url(./img/link.png);
     background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,6 +392,52 @@
     padding: 10px;
     transform: translateZ(120px);
 }
+/*-------------efeito*/
+.elements1.imgBx1{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.box1:hover .elements1.imgBx1{
+    top:-30px;
+    opacity: 1
+}
+
+.elements1.bg1{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box1:hover .elements1.bg1{
+    top:30px;
+    opacity: 1
+}
+
+.elements1.content1 p{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.elements1.content1 {
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box1:hover .elements1.content1 p{
+    top:10px;
+    opacity: 1
+}
+
+.box1:hover .elements1.content1 {
+    top:140px;
+    opacity: 1
+}
+
+
+
+/*fim efeito-----------*/
 
 .elements1.imgBx1 img{
     position: absolute;
@@ -273,7 +476,7 @@
 }
 
 .box1:hover .elements1.name1{
-    top:135px;
+    top:95px;
     opacity: 1
 
 }
@@ -313,7 +516,7 @@
     margin-right: 20px;
 }
 
-.box2 .card{
+.box2 .card2{
     position: relative;
     background: rgba(255,255,255,0.1) ;
     width:18em;
@@ -329,12 +532,12 @@
     transform-style: preserve-3d;
 }
 
-.elements{
+.elements2{
     position: absolute;
     top: 50px;
-    left: -30px;
-    width: 100px;
-    height: 100px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
     background: rgba(255,255,255,0.1);
 
     transform: translateZ(80px);
@@ -347,11 +550,11 @@
     box-shadow: 0 25px 45px rgba(0,0,0,0.05);
 }
 
-.elements.bg::before{
+.elements2.bg2::before{
     content: '';
     position: absolute;
     inset: 0;
-    background: url(./img/aspas.png);
+    background: url(./img/link.png);
     background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,12 +563,12 @@
 
 }
 
-.box2:hover .elements.bg::before{
+.box2:hover .elements2.bg2::before{
     opacity: 1;
     
 }
 
-.elements.imgBx{
+.elements2.imgBx2{
     top: 0;
     left: initial;
     right: 60px;
@@ -375,7 +578,7 @@
     transform: translateZ(120px);
 }
 
-.elements.imgBx img{
+.elements2.imgBx2 img{
     position: absolute;
     width: calc(100% - 20px);
     
@@ -388,11 +591,11 @@
     transition: 0.5s;
 }
 
-.box2:hover .elements.imgBx img{
+.box2:hover .elements2.imgBx2 img{
     opacity: 1;
 }
 
-.elements.name{
+.elements2.name2{
     top: 235px;
     left: initial;
     right: 0;
@@ -411,13 +614,13 @@
 
 }
 
-.box2:hover .elements.name{
-    top:135px;
+.box2:hover .elements2.name2{
+    top:85px;
     opacity: 1
 
 }
 
-.elements.content{
+.elements2.content2{
     top: initial;
     left: initial;
     bottom:0;
@@ -429,7 +632,7 @@
     align-items: center;
 }
 
-.elements.content p {
+.elements2.content2 p {
     position: relative;
     color: #644651;
     font-size: 0.85em;
@@ -438,9 +641,53 @@
     transition-delay: 0.5s;
 }
 
-.box2:hover .elements.content p{
+.box2:hover .elements2.content2 p{
     opacity:1;
 
 } 
 
 
+/*-------------efeito*/
+.elements2.imgBx2{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.box2:hover .elements2.imgBx2{
+    top:-30px;
+    opacity: 1
+}
+
+.elements2.bg2{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box2:hover .elements2.bg2{
+    top:30px;
+    opacity: 1
+}
+
+.elements2.content2 p{
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+
+.elements2.content2 {
+    transition: 2s;
+    opacity: 0;
+    transition-delay: 1.25px;
+}
+.box2:hover .elements2.content2 p{
+    top:0px;
+    opacity: 1
+}
+
+.box2:hover .elements2.content2 {
+    top:140px;
+    opacity: 1
+}
+
+/*----------Fim efeito--------------------*/
