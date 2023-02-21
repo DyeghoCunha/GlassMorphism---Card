@@ -1,4 +1,8 @@
 /*Cartão Zero ------------------------------------------------------------------------------------------------------------------*/
+:root{
+    --i:2;
+}
+
 
 .box0{
     position: relative;
@@ -73,6 +77,7 @@
     height: 120px;
     padding: 10px;
     transform: translateZ(120px);
+    opacity: 0;
 }
 
 .elements0.imgBx0 img{
@@ -89,6 +94,9 @@
 }
 
 .box0:hover .elements0.imgBx0 img{
+    opacity: 1;
+}
+.box0:hover .elements0.imgBx0 {
     opacity: 1;
 }
 
@@ -352,6 +360,7 @@
     border-left: 1px solid rgba(255,255,255,0.75);
     border-radius: 10px;
     box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+
 }
 
 .elements0f.bg0f::before{
@@ -373,6 +382,11 @@
     opacity: 1;
     
 }
+
+/*--------------------PLuS---------------------*/
+
+
+
 /*----------------------Efeito de HOVER dos icones----------------------------*/
 
 .elements0a.bg0a{
@@ -447,6 +461,82 @@
 
 
 
+/*-----------PLUSS--------------------*/
+
+.elements0h{
+    display: block;
+    position: absolute;
+    top: 340px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    /* background: rgba(255,255,255,0.1); */
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+
+    
+
+    /* backdrop-filter: blur(10px); */
+    /* border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.75);
+    border-left: 1px solid rgba(255,255,255,0.75);
+    border-radius: 50%; */
+    /* box-shadow: inset 0 25px 45px rgba(0,0,0,0.05); */
+}
+
+.elements0h.bg0h::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(./img/arrasta.png);
+    background-size: 38px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1 ;
+    transition: 0.5s;
+
+
+    animation: animateDots2 5s linear infinite;
+    filter: hue-rotate(360deg)
+
+}
+
+.box0:hover .elements0h.bg0h::before{
+    opacity: 1;
+    
+}
+
+
+
+
+.elements0h.bg0h{
+    /* transition: 2s; */
+    opacity: 1;
+    transition-delay: 0.25px;
+}
+.box0:hover .elements0h.bg0h{
+    
+    opacity: 0
+}
+.box:hover .elements0h.bg0h{
+    
+    opacity: 0
+}
+
+.box1:hover .elements0h.bg0h{
+    
+    opacity: 0
+}
+.box2:hover .elements0h.bg0h{
+    
+    opacity: 0
+}
+
+
+
+
+
 
 
 
@@ -486,6 +576,7 @@
     padding: 10px;
     transform: translateZ(60px);
     align-items: center;
+    opacity: 0;
 }
 
 .elements0.content0 p {
@@ -502,4 +593,8 @@
 
 } 
 
+.box0:hover .elements0.content0 {
+    opacity:1;
+
+} 
 
