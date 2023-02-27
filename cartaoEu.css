@@ -3,13 +3,28 @@
     --i:2;
 }
 
+.cartaoApresentacao{
+    overflow-y:hidden;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    min-height: 80vh;
+    margin-left: 0px;
+    
+
+    /*ADD AGORA*/
+    gap: 80px;
+   
+}
 
 .box0{
     position: relative;
     border-radius: 1.5em;
     transform-style: preserve-3d;
     margin-left: 40px;
+    display: flex;
 }
+
 
 .box0 .card0{
     position: relative;

@@ -1,0 +1,66 @@
+.cartaoApresentacao2{
+    overflow:hidden;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+   
+   gap: 90px;
+    margin-left: 0px;
+    
+    margin-left: 20%;
+    /*ADD AGORA*/
+    
+   
+}
+
+
+
+
+.box1__estatisticas{
+    transform-style: preserve-3d;
+    display: flex;
+    border-radius: 1.5em;
+}
+.box2__equipamentos{
+    transform-style: preserve-3d;
+    display: flex;
+    border-radius: 1.5em;
+    right: 0;
+}
+
+.carda{
+    position: relative;
+    
+    background: rgba(174, 20, 20, 0.856) ;
+    width:18em;
+    min-height: 34em;
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(239, 10, 10, 0.5);
+    border-top: 1px solid rgba(235, 12, 12, 0.75);
+    border-left: 1px solid rgba(232, 8, 8, 0.75);
+
+    border-radius: 1.5em;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+    transform-style: preserve-3d;
+     transform: translateZ(1px);
+}
+
+
+.cardb{
+    position: relative;
+    
+    background: rgba(26, 11, 230, 0.629) ;
+    width:18em;
+    min-height: 34em;
+
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(67, 4, 214, 0.5);
+    border-top: 1px solid rgba(19, 8, 230, 0.75);
+    border-left: 1px solid rgba(89, 13, 230, 0.75);
+
+    border-radius: 1.5em;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.05);
+    transform-style: preserve-3d;
+     transform: translateZ(1px);
+}
